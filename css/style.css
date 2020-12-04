@@ -1,0 +1,158 @@
+/*
+  General Color
+ ***************
+  * Heading Color : #1e1e1e
+  * paragraph color : #4a4a4a
+  * Sec Color : #00b4c6
+  * hover button Color : #0088e8
+  * hover link Color : #f55858
+  * gradient color : linear-gradient( 135deg, rgba(0, 136, 232, 1) 0%, rgba(0, 182, 198, 1) 0%, rgba(0, 136, 232, 1) 100% )
+  * box-shadow: 0 2px 48px 0 rgba(0, 0, 0, 0.1);
+*/
+
+
+/* General Style */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Header */
+nav{
+    padding: 15px 0 !importants;
+}
+nav .navbar-brand{
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 15px;
+}
+
+nav .navbar-nav .nav-item {
+    padding: 0 10px;
+}
+nav .navbar-nav .nav-item .nav-link{
+    font-size: 11px;
+    color: #1e1e1e;
+    text-transform: uppercase;
+    font-weight: bold; 
+    transition: all .3s ease-in-out;
+}
+nav .navbar-nav .nav-item .nav-link:hover{
+    color: #f55858;
+}
+
+/* Wellcome Area */
+.welcome-area{
+    background: url('../images/banner-bg.png')no-repeat center center;
+    background-size: cover;
+    padding: 60px 0;
+    margin-bottom: 100px;
+}
+.welcome-area .heading{
+    margin-top:50px;
+    color: white;
+    font-size: 50px;
+    line-height: 1.7;
+    letter-spacing: 2px;
+}
+.welcome-area .description{
+    color: black;
+    letter-spacing: 2px;
+    font-weight: 300;
+    margin: 35px 0;
+    line-height: 1.7;
+}
+.welcome-area a{
+    font-size: 13px;
+    background: #f55859;
+    color: white;
+    border-radius: 17px;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 10px 19px;
+    
+}
+.welcome-area a:hover{
+    background:#0088e8;
+}
+
+/* About */
+.About{
+    padding: 120px 0;
+    border-bottom: 8px solid white;
+}
+.About .descr-1{
+    padding: 30px 30px;
+}
+.About .sec1{
+    color: cornflowerblue;
+     margin: 35px 0;
+}
+.About .button{
+    font-size: 13px;
+    background: #f55859;
+    color: white;
+    border-radius: 17px;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 10px 19px;
+    
+}
+.About .image1{
+    width: 400px;
+}
+
+/* About 2 */
+.About-2 .image2{
+    width: 400px;
+}
+.About-2 .all ul{
+    list-style: none;
+}
+.About-2 .all ul li{
+   
+    padding: 5px;
+}
+.About-2 .all ul li img{
+    float: left;
+}
+.About-2 .all ul li .content{
+    margin-left: 75px;
+}
+/* Services */
+.cards{
+    background-color:#00b4c6; 
+    padding: 80px 0;
+    margin: 30px 0;
+}
+.card{
+    text-align: center;
+    padding: 40px 30px;
+    margin: 20px 20px;
+    }
+.card .card-img-top{
+    width: 100px;
+    height: 100px;
+    background-color: darkcyan;
+    margin: auto;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.cards .card .btn-primary{
+    font-size: 12px;
+    background-color: darkcyan;
+    border-radius: 20px;
+    padding: 10px 30px;
+}
+/* contact-us */
+
+
+/* Footer */
+.footer p{
+    padding: 20px 0;
+    margin: 30px;
+    text-align: center;
+    color: black;
+}
