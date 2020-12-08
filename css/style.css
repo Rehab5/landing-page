@@ -85,9 +85,11 @@ nav .navbar-nav .nav-item .nav-link:hover{
 .About .descr-1{
     padding: 30px 30px;
 }
-.About .sec1{
-    color: cornflowerblue;
+.About .sec1 {
      margin: 35px 0;
+}
+.About .sec1 span{
+    color: blue;
 }
 .About .button{
     font-size: 13px;
